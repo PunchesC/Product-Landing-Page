@@ -1,0 +1,165 @@
+
+html{
+  font-family: 'Poppins', sans-serif;
+}
+
+#header{
+  padding:10px 100px 10px 100px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom:5px solid silver;
+}
+
+#header-img{
+  filter: drop-shadow(5px 5px 2px gray);
+  width:100%;
+}
+
+#nav-div{
+  flex:1;
+}
+
+#nav-bar{
+  flex:1;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-evenly;
+}
+
+.nav-link{
+  text-decoration: none;
+  color:black;
+}
+
+main{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+#product{
+  
+	display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 300px 0px 0px 0px;
+  height:600px
+}
+
+
+#product-image{
+  width:400px;
+  height:auto;
+}
+
+#button-section{
+ 
+ word-spacing: 200px; 
+ padding: 25px 0px 0px 0px;
+}
+
+.cta-select{
+	border: 2px solid black;
+	background:transparent;
+	color: black;
+	width: 150px;
+	height:50px;
+	cursor:pointer;
+	font-size:16px;
+	
+}
+
+.cta-add{
+	background:black;
+	width: 150px;
+	height:50px;
+	cursor:pointer;
+	font-size:16px;
+	border:none;
+	color:white;
+	margin:30px 0px 0px 30px;
+
+}
+
+
+
+#testimonial{
+  
+  height:auto;;
+  display:grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  ". video ."
+  "text-box1 text-box2 text-box3";
+ 
+  margin: 50px;
+  
+  grid-column-gap:45px;
+  grid-row-gap: 75px;
+  
+}
+
+#video{
+  width:100%;
+  height:500px;
+  grid-area:video;
+  filter: drop-shadow(5px 5px 2px gray);
+
+  
+}
+
+#text-box1, #text-box2, #text-box3{
+  display:flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: 50px;
+  
+}
+
+#text-box1{
+  grid-area:text-box1;
+  
+  
+  
+  
+}
+#text-box2{
+  grid-area:text-box2;
+ 
+  
+}
+#text-box3{
+  grid-area:text-box3;
+  
+  
+}
+
+.text{
+  text-align:center;
+  background:lightgray;
+  width:50%;
+  height:auto;
+  padding:0% 5% 0% 5%;
+  color:black;
+  
+}
+
+
+#subscription{
+  
+  align-self: center;
+  
+  text-align: center;
+  
+}
+
+#email{
+  width:80%;
+  margin:10px 0px 10px 0px;
+}
+
+footer{
+  text-align:center;
+  padding:200px 0px 0px 0px;
+}
